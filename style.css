@@ -1,4 +1,4 @@
-.blog1 {
+/* .blog1 {
     border: 5px solid #1e3d59;
     width: 20vw;
     text-align: 5%;
@@ -7,10 +7,16 @@
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
+} */
+
+
+.parent {
+    font-size: 30px;
+    display: flex;
+    border: 5px solid #1e3d59;
+
 }
 
-.blog2 {
-    text-align: center;
-    margin-bottom: 75%;
-
-}
+/* .child {
+    border: 5px solid #1e3d59;
+} */
