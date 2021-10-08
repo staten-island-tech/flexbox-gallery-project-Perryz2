@@ -14,7 +14,13 @@ div {
 
 .text{
     font-size: 30px;
+    margin: 10%;
 }
+
+.body {
+    font-size: 30px;
+    margin-bottom: 10%;
+    }
 
 .header {
     text-align: center;
@@ -31,7 +37,10 @@ div {
     margin: 3rem auto;
     justify-content: space-around;
     margin-bottom: 15%;
-
+    height: 75vw;
+    margin: 3rem auto;
+    justify-content: space-around;
+    margin-bottom: 150;
 }
 
 .Blog-header {
@@ -51,5 +60,5 @@ div {
     height: 30rem;
     border: 5px solid #1e3d59;
     text-align: center;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
