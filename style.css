@@ -1,0 +1,55 @@
+body,
+html, 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+div {
+    background-image: url('Bg.webp');
+    color: #c0c0c0
+}
+
+.text{
+    font-size: 30px;
+}
+
+.header {
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: 10%;
+    border: 5px solid #0b0c0b;
+    border-left: 5rem;
+    border-right: 5rem;
+}
+.Post {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70vw;
+    margin: 3rem auto;
+    justify-content: space-around;
+    margin-bottom: 15%;
+
+}
+
+.Blog-header {
+    font-size: 30px;
+
+}
+
+.picture {
+    margin: 10%;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}
+
+.Blog-post {
+    width: 27%;
+    height: 30rem;
+    border: 5px solid #1e3d59;
+    text-align: center;
+    margin-bottom: 15%;
+}
