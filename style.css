@@ -43,25 +43,39 @@ body {
 }
 
 .Blog-header {
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 2rem;
 
 }
 
 
 .picture {
-    height: 18rem;
+    height: 25rem;
     width: 75%;
     box-sizing: border-box;
 }
 
 .Blog-post {
     width: 27%;
-    height: 30rem;
+    height: 40rem;
     border: 1rem solid #1e3d59;
     text-align: center;
     margin-bottom: 15rem;
     border-radius: 10rem;
     box-shadow: 1.2rem 1rem 0.5rem 0.3rem #A9A9A9 ;
-        background-image: url('Bg.webp');
+}
+
+
+@media (max-width: 768px)   {
+    .Blog-post {
+        width: 80%;
+        border: 1rem solid aqua;
+        text-align: center;
+    }
+
+    .header {
+        width: 80%;
+        border: aqua;
+        text-align: center;
+    }
 }
