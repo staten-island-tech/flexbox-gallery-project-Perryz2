@@ -14,26 +14,31 @@ body {
 
 
 .body {
-    font-size: 30px;
+    background-color: #000;
 }
 
 .header {
     text-align: center;
     font-size: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Headchild {
+    display: inline-block;
     margin-bottom: 10%;
     border: 5px solid #1e3d59;
-        margin-right: 40rem;
-        margin-left: 40rem;
-            background-image: url('Bg.webp');
+        background-image: url('Bg.webp');
     border-radius: 1rem;
-    margin-bottom: 10%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .Post {
     display: flex;
     flex-wrap: wrap;
     height: 70vw;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 15%;
     height: 75vw;
     margin-left: auto;
@@ -41,6 +46,7 @@ body {
     margin-bottom: 150;
     text-align: center;
 }
+
 
 .Blog-header {
     font-size: 45px;
@@ -51,7 +57,7 @@ body {
 
 
 .picture {
-    height: 20rem;
+    height: 18rem;
     width: 80%;
     box-sizing: border-box;
 }
@@ -60,6 +66,7 @@ body {
     width: 27%;
     height: 40rem;
     border: 1rem solid #1e3d59;
+    background-color: #891522;
     text-align: center;
     margin-bottom: 15rem;
     border-radius: 10rem;
@@ -69,22 +76,27 @@ body {
 
 @media (max-width: 768px)   {
     .Blog-post {
-        width: 80%;
+        width: 40%;
         border: 1rem solid aqua;
+        text-align: center;
+    }
+
+    .header {
+        width: 40%;
+        border: aqua;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .Blog-post {
+        width: 80%;
+        border: 1rem solid blue;
         text-align: center;
     }
 
     .header {
         width: 80%;
         border: aqua;
-        text-align: center;
-    }
-}
-
-@media (max-width: 600px) {
-    .Blog-post {
-        width: 40%;
-        border: 1rem solid blue;
-        text-align: center;
     }
 }
