@@ -76,93 +76,38 @@ body {
     filter: blur(0.15rem)
 }
 
-.Blog-post1 {
-    width: 27%;
-    height: 40rem;
-    border: 1rem solid #1e3d59;
-    background-color: #891522;
-    text-align: center;
-    margin-bottom: 15rem;
-    border-radius: 10rem;
-    box-shadow: 0.3rem 0.5rem 1rem 1.2rem #A9A9A9 ;
-    filter: blur(0.15rem)
-}
-
-.Animation {
-    font-size: 3rem;
-    animation: load 8s infinite;
-    position: absolute;
-    transition: 0.5s;
-}
-
-@keyframes load {
-    0% {
-    left: 0%;
-    background-color: #891522;
-    border: solid 0.5rem #1e3d59;
-}
-
-    20% {
-    left: 20%;
-    background-color: #891522;
-    border: solid 0.5rem #1e3d59;
-}
-
-    40% {
-    left: 40%;
-    background-color: #891522;
-    border: solid 0.5rem #1e3d59;
-}
-
-    60% {
-    left: 60%;
-    background-color: #891522;
-    border: solid 0.5rem #1e3d59;
-}
-
-    80% {
-    left: 80%;
-    background-color: #891522;
-    border: solid 0.5rem #1e3d59;
-}
-
-    100% {
-    left: 100%;
-    background-color: #891522;
-    border: solid 0.5rem #1e3d59;
-}
-}
-
-.Blog-post:hover {
-    background-color: gold;
-    transform: scale(1.2);
-    transform-origin: right;
-    filter: none;
-}
-
-.Blog-post1:hover {
+#Hover1:hover {
     background-color: gold;
     transform: scale(1.2);
     transform-origin: center;
     filter: none;
 }
 
-.Headchild:after {
-    top: -100%;
-    left: 0px;
-    width: 100%;
-    position: absolute;
-    background: url('Bg.webp');
-    border-radius: 2rem;
-    border: 0.5rem solid #1e3d59;
-    content: 'Hi C:';
-    transform-origin: left bottom;
-    transform: rotateX(90deg);
+#Hover2:hover {
+    background-color: gold;
+    transform: skew(5deg,5deg);
+    transform-origin: center;
+    filter: none;
 }
 
-.Headchild:hover {
-    transform-origin: center bottom;
-    transform: rotateX(-90deg) translateY(100%);
+#Hover3::before {
+    transform:rotate(-0.5turn);
+}
+
+#Hover3:hover {
+    background-color: gold;
+    transform: rotate(0.5turn);
+    transform-origin: center;
+    filter: none;
+}
+}
+
+#Hover4:hover {
+
+}
+
+#Hover5:hover {
+
 }
 
 
