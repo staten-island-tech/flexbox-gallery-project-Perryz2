@@ -10,7 +10,6 @@ html,
 
 body {
     font-family: 'Cinzel', serif;
-    transition: all 2s;
 }
 
 
@@ -23,16 +22,19 @@ body {
     font-size: 10rem;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 10rem;
 }
 
 .Headchild {
     display: inline-block;
     margin-bottom: 20rem;
-    border: 5px solid #1e3d59;
+    margin-top: 0%;
+    border: 0.5rem solid #1e3d59;
         background-image: url('Bg.webp');
     border-radius: 1rem;
     margin-right: auto;
     margin-left: auto;
+    transform-style: preserve-3d;
 }
 
 .Post {
@@ -40,17 +42,16 @@ body {
     flex-wrap: wrap;
     height: 70vw;
     justify-content: space-around;
-    margin-bottom: 15%;
+    margin-bottom: 50%;
     height: 75vw;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 150;
     text-align: center;
 }
 
 
 .Blog-header {
-    font-size: 45px;
+    font-size: 5rem;
     margin-bottom: 3rem;
     margin-top: 2rem;
 
@@ -87,20 +88,82 @@ body {
     filter: blur(0.15rem)
 }
 
+.Animation {
+    font-size: 3rem;
+    animation: load 8s infinite;
+    position: absolute;
+    transition: 0.5s;
+}
+
+@keyframes load {
+    0% {
+    left: 0%;
+    background-color: #891522;
+    border: solid 0.5rem #1e3d59;
+}
+
+    20% {
+    left: 20%;
+    background-color: #891522;
+    border: solid 0.5rem #1e3d59;
+}
+
+    40% {
+    left: 40%;
+    background-color: #891522;
+    border: solid 0.5rem #1e3d59;
+}
+
+    60% {
+    left: 60%;
+    background-color: #891522;
+    border: solid 0.5rem #1e3d59;
+}
+
+    80% {
+    left: 80%;
+    background-color: #891522;
+    border: solid 0.5rem #1e3d59;
+}
+
+    100% {
+    left: 100%;
+    background-color: #891522;
+    border: solid 0.5rem #1e3d59;
+}
+}
+
 .Blog-post:hover {
-    background-color: red;
+    background-color: gold;
     transform: scale(1.2);
     transform-origin: right;
     filter: none;
 }
 
 .Blog-post1:hover {
-    background-color: red;
+    background-color: gold;
     transform: scale(1.2);
     transform-origin: center;
     filter: none;
 }
 
+.Headchild:after {
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    background: url('Bg.webp');
+    border-radius: 2rem;
+    border: 0.5rem solid #1e3d59;
+    content: 'Hi C:';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+
+.Headchild:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
 
 
 @media (max-width: 768px)   {
