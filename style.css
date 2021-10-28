@@ -83,6 +83,7 @@ body {
     transform: scale(1.2);
     transform-origin: center;
     filter: none;
+    transition: all 0.5s;
 }
 
 #Hover2:hover {
@@ -90,24 +91,28 @@ body {
     transform: skew(5deg,5deg);
     transform-origin: center;
     filter: none;
+    transition: all 0.5s;
 }
 
 #Hover3:hover {
     background-color: gold;
     transform-origin: center;
     filter: none;
+    transition: all 0.5s;
 }
 
 #Hover4:hover {
     transform: rotateY(360deg);
     transition: 7s;
     filter: none;
+    transition: all 3s
 }
 
 #Hover5:hover {
     transform: rotateX(360deg);
     transition: 7s;
     filter: none;
+    transition: all 3s
 }
 
 .animation {
@@ -152,6 +157,7 @@ body {
     left: 100%;
     background-color: #891522;
     border: solid 0.5rem #1e3d59;
+    opacity: 0%;
     }
 }
 
